@@ -19,9 +19,13 @@ var offFunction = function() {
 
 // var placeholderColor = function() {
 //   var placeholderZero = document.getElementById.("total");
-//
+//   placeholderZero.className += "grey";
 // }
 
 function calculate(result) {
     form.total.value = form.total.value + result;
+}
+
+function refresh() {
+  window.location.reload();
 }
